@@ -1,0 +1,71 @@
+body{
+
+    background-color: aqua;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+    background-image:url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80')
+}
+
+.title{
+    -webkit-box-shadow: 11px 11px 36px 5px rgba(0,0,0,0.71); 
+    box-shadow: 11px 11px 36px 5px rgba(0,0,0,0.71);
+padding: 20px;
+-webkit-border-radius: 0px 21px 21px 21px;
+-moz-border-radius: 0px 21px 21px 21px;
+border-radius: 0px 21px 21px 21px;
+
+font-family: "Courier New", Courier, monospace;
+font-size: 25px;
+letter-spacing: 10px;
+word-spacing: 2px;
+color: #000000;
+font-weight:bold;
+/* text-decoration:solid; */
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+
+}
+
+.trivia{
+    -webkit-box-shadow: 10px -6px 50px 11px #000000; 
+    box-shadow: 10px -6px 50px 11px #000000;
+}
+.a{
+    width: 200px;
+    height: 200px;
+border: 1px black solid;
+-webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 32px 16px 50px 18px rgba(0,0,0,0.57); 
+box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 32px 16px 50px 18px rgba(0,0,0,0.57);
+padding: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.a img{
+    width:150px ;
+    height: 140px;
+}
+.a h2{
+    
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+   color: #A31925;
+   letter-spacing: 2px;
+
+}
+.links{
+     display: flex;  /* השיטה שבא אני רוצה לסדר את האלמנטים במסך , בדרך כלל זה יהיה */
+    justify-content: space-around;
+    flex-direction: row;
+    width:100VW;
+    margin-top: 100px;
+}
+
